@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-base-assert",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Standard library basic mathematical assertion utilities.",
   "license": "Apache-2.0",
   "author": {
