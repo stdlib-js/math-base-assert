@@ -3,8 +3,30 @@
   "version": "0.0.6",
   "description": "Base mathematical assertion utilities.",
   "license": "Apache-2.0",
-  "type": "module",
-  "main": "./mod.js",
+  "author": {
+    "name": "The Stdlib Authors",
+    "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
+  },
+  "contributors": [
+    {
+      "name": "The Stdlib Authors",
+      "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
+    }
+  ],
+  "main": "./lib",
+  "directories": {
+    "doc": "./docs",
+    "example": "./examples",
+    "lib": "./lib",
+    "test": "./test"
+  },
+  "types": "./docs/types",
+  "scripts": {
+    "test": "make test",
+    "test-cov": "make test-cov",
+    "examples": "make examples",
+    "benchmark": "make benchmark"
+  },
   "homepage": "https://stdlib.io",
   "repository": {
     "type": "git",
@@ -13,6 +35,84 @@
   "bugs": {
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
+  "dependencies": {
+    "@stdlib/math-base-assert-int32-is-even": "^0.0.x",
+    "@stdlib/math-base-assert-int32-is-odd": "^0.0.x",
+    "@stdlib/math-base-assert-is-composite": "^0.0.x",
+    "@stdlib/math-base-assert-is-coprime": "^0.0.x",
+    "@stdlib/math-base-assert-is-even": "^0.0.x",
+    "@stdlib/math-base-assert-is-finite": "^0.0.x",
+    "@stdlib/math-base-assert-is-finitef": "^0.0.x",
+    "@stdlib/math-base-assert-is-infinite": "^0.0.x",
+    "@stdlib/math-base-assert-is-infinitef": "^0.0.x",
+    "@stdlib/math-base-assert-is-integer": "^0.0.x",
+    "@stdlib/math-base-assert-is-nan": "^0.0.x",
+    "@stdlib/math-base-assert-is-nanf": "^0.0.x",
+    "@stdlib/math-base-assert-is-negative-integer": "^0.0.x",
+    "@stdlib/math-base-assert-is-negative-zero": "^0.0.x",
+    "@stdlib/math-base-assert-is-negative-zerof": "^0.0.x",
+    "@stdlib/math-base-assert-is-nonnegative-integer": "^0.0.x",
+    "@stdlib/math-base-assert-is-nonpositive-integer": "^0.0.x",
+    "@stdlib/math-base-assert-is-odd": "^0.0.x",
+    "@stdlib/math-base-assert-is-positive-integer": "^0.0.x",
+    "@stdlib/math-base-assert-is-positive-zero": "^0.0.x",
+    "@stdlib/math-base-assert-is-positive-zerof": "^0.0.x",
+    "@stdlib/math-base-assert-is-prime": "^0.0.x",
+    "@stdlib/math-base-assert-is-probability": "^0.0.x",
+    "@stdlib/math-base-assert-is-safe-integer": "^0.0.x",
+    "@stdlib/math-base-assert-uint32-is-pow2": "^0.0.x",
+    "@stdlib/utils-define-read-only-property": "^0.0.x",
+    "@stdlib/error-tools-fmtprodmsg": "^0.0.x"
+  },
+  "devDependencies": {
+    "@stdlib/assert-is-boolean": "^0.0.x",
+    "@stdlib/bench": "^0.0.x",
+    "@stdlib/constants-float32-max": "^0.0.x",
+    "@stdlib/constants-float32-ninf": "^0.0.x",
+    "@stdlib/constants-float32-pinf": "^0.0.x",
+    "@stdlib/constants-float32-smallest-subnormal": "^0.0.x",
+    "@stdlib/constants-float64-max": "^0.0.x",
+    "@stdlib/constants-float64-max-safe-integer": "^0.0.x",
+    "@stdlib/constants-float64-min-safe-integer": "^0.0.x",
+    "@stdlib/constants-float64-ninf": "^0.0.x",
+    "@stdlib/constants-float64-pinf": "^0.0.x",
+    "@stdlib/constants-float64-smallest-subnormal": "^0.0.x",
+    "@stdlib/constants-int32-max": "^0.0.x",
+    "@stdlib/datasets-primes-100k": "^0.0.x",
+    "@stdlib/math-base-special-floor": "^0.0.x",
+    "@stdlib/math-base-special-gcd": "^0.0.x",
+    "@stdlib/math-base-special-log10": "^0.0.x",
+    "@stdlib/math-base-special-log2": "^0.0.x",
+    "@stdlib/math-base-special-pow": "^0.0.x",
+    "@stdlib/math-base-special-round": "^0.0.x",
+    "@stdlib/math-base-special-sqrt": "^0.0.x",
+    "@stdlib/math-base-special-trunc": "^0.0.x",
+    "@stdlib/number-ctor": "^0.0.x",
+    "@stdlib/number-float64-base-to-float32": "^0.0.x",
+    "@stdlib/number-float64-base-to-uint32": "^0.0.x",
+    "@stdlib/random-base-discrete-uniform": "^0.0.x",
+    "@stdlib/random-base-randu": "^0.0.x",
+    "@stdlib/utils-keys": "^0.0.x",
+    "@stdlib/utils-try-require": "^0.0.x",
+    "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
+    "istanbul": "^0.4.1",
+    "tap-spec": "5.x.x"
+  },
+  "engines": {
+    "node": ">=0.10.0",
+    "npm": ">2.7.0"
+  },
+  "os": [
+    "aix",
+    "darwin",
+    "freebsd",
+    "linux",
+    "macos",
+    "openbsd",
+    "sunos",
+    "win32",
+    "windows"
+  ],
   "keywords": [
     "stdlib",
     "stdmath",
