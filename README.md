@@ -24,30 +24,20 @@ limitations under the License.
 
 > Base math assertion utilities.
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/math-base-assert
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var ns = require( '@stdlib/math-base-assert' );
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert@esm/index.mjs';
+```
+
+You can also import the following named exports from the package:
+
+```javascript
+import { isComposite, isCoprime, isEven, isEvenInt32, isFinite, isFinitef, isInfinite, isInfinitef, isInteger, isNegativeInteger, isNegativeZero, isNegativeZerof, isNonNegativeInteger, isNonPositiveInteger, isOdd, isOddInt32, isPositiveInteger, isPositiveZero, isPositiveZerof, isPow2Uint32, isPrime, isProbability, isSafeInteger, isnan, isnanf } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert@esm/index.mjs';
 ```
 
 #### ns
@@ -105,11 +95,20 @@ var o = ns;
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var objectKeys = require( '@stdlib/utils-keys' );
-var ns = require( '@stdlib/math-base-assert' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="module">
+
+import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert@esm/index.mjs';
 
 console.log( objectKeys( ns ) );
+
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -133,7 +132,7 @@ console.log( objectKeys( ns ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -195,55 +194,55 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/math/base/assert/int32-is-even]: https://github.com/stdlib-js/math-base-assert-int32-is-even
+[@stdlib/math/base/assert/int32-is-even]: https://github.com/stdlib-js/math-base-assert-int32-is-even/tree/esm
 
-[@stdlib/math/base/assert/int32-is-odd]: https://github.com/stdlib-js/math-base-assert-int32-is-odd
+[@stdlib/math/base/assert/int32-is-odd]: https://github.com/stdlib-js/math-base-assert-int32-is-odd/tree/esm
 
-[@stdlib/math/base/assert/is-composite]: https://github.com/stdlib-js/math-base-assert-is-composite
+[@stdlib/math/base/assert/is-composite]: https://github.com/stdlib-js/math-base-assert-is-composite/tree/esm
 
-[@stdlib/math/base/assert/is-coprime]: https://github.com/stdlib-js/math-base-assert-is-coprime
+[@stdlib/math/base/assert/is-coprime]: https://github.com/stdlib-js/math-base-assert-is-coprime/tree/esm
 
-[@stdlib/math/base/assert/is-even]: https://github.com/stdlib-js/math-base-assert-is-even
+[@stdlib/math/base/assert/is-even]: https://github.com/stdlib-js/math-base-assert-is-even/tree/esm
 
-[@stdlib/math/base/assert/is-finite]: https://github.com/stdlib-js/math-base-assert-is-finite
+[@stdlib/math/base/assert/is-finite]: https://github.com/stdlib-js/math-base-assert-is-finite/tree/esm
 
-[@stdlib/math/base/assert/is-finitef]: https://github.com/stdlib-js/math-base-assert-is-finitef
+[@stdlib/math/base/assert/is-finitef]: https://github.com/stdlib-js/math-base-assert-is-finitef/tree/esm
 
-[@stdlib/math/base/assert/is-infinite]: https://github.com/stdlib-js/math-base-assert-is-infinite
+[@stdlib/math/base/assert/is-infinite]: https://github.com/stdlib-js/math-base-assert-is-infinite/tree/esm
 
-[@stdlib/math/base/assert/is-infinitef]: https://github.com/stdlib-js/math-base-assert-is-infinitef
+[@stdlib/math/base/assert/is-infinitef]: https://github.com/stdlib-js/math-base-assert-is-infinitef/tree/esm
 
-[@stdlib/math/base/assert/is-integer]: https://github.com/stdlib-js/math-base-assert-is-integer
+[@stdlib/math/base/assert/is-integer]: https://github.com/stdlib-js/math-base-assert-is-integer/tree/esm
 
-[@stdlib/math/base/assert/is-nan]: https://github.com/stdlib-js/math-base-assert-is-nan
+[@stdlib/math/base/assert/is-nan]: https://github.com/stdlib-js/math-base-assert-is-nan/tree/esm
 
-[@stdlib/math/base/assert/is-nanf]: https://github.com/stdlib-js/math-base-assert-is-nanf
+[@stdlib/math/base/assert/is-nanf]: https://github.com/stdlib-js/math-base-assert-is-nanf/tree/esm
 
-[@stdlib/math/base/assert/is-negative-integer]: https://github.com/stdlib-js/math-base-assert-is-negative-integer
+[@stdlib/math/base/assert/is-negative-integer]: https://github.com/stdlib-js/math-base-assert-is-negative-integer/tree/esm
 
-[@stdlib/math/base/assert/is-negative-zero]: https://github.com/stdlib-js/math-base-assert-is-negative-zero
+[@stdlib/math/base/assert/is-negative-zero]: https://github.com/stdlib-js/math-base-assert-is-negative-zero/tree/esm
 
-[@stdlib/math/base/assert/is-negative-zerof]: https://github.com/stdlib-js/math-base-assert-is-negative-zerof
+[@stdlib/math/base/assert/is-negative-zerof]: https://github.com/stdlib-js/math-base-assert-is-negative-zerof/tree/esm
 
-[@stdlib/math/base/assert/is-nonnegative-integer]: https://github.com/stdlib-js/math-base-assert-is-nonnegative-integer
+[@stdlib/math/base/assert/is-nonnegative-integer]: https://github.com/stdlib-js/math-base-assert-is-nonnegative-integer/tree/esm
 
-[@stdlib/math/base/assert/is-nonpositive-integer]: https://github.com/stdlib-js/math-base-assert-is-nonpositive-integer
+[@stdlib/math/base/assert/is-nonpositive-integer]: https://github.com/stdlib-js/math-base-assert-is-nonpositive-integer/tree/esm
 
-[@stdlib/math/base/assert/is-odd]: https://github.com/stdlib-js/math-base-assert-is-odd
+[@stdlib/math/base/assert/is-odd]: https://github.com/stdlib-js/math-base-assert-is-odd/tree/esm
 
-[@stdlib/math/base/assert/is-positive-integer]: https://github.com/stdlib-js/math-base-assert-is-positive-integer
+[@stdlib/math/base/assert/is-positive-integer]: https://github.com/stdlib-js/math-base-assert-is-positive-integer/tree/esm
 
-[@stdlib/math/base/assert/is-positive-zero]: https://github.com/stdlib-js/math-base-assert-is-positive-zero
+[@stdlib/math/base/assert/is-positive-zero]: https://github.com/stdlib-js/math-base-assert-is-positive-zero/tree/esm
 
-[@stdlib/math/base/assert/is-positive-zerof]: https://github.com/stdlib-js/math-base-assert-is-positive-zerof
+[@stdlib/math/base/assert/is-positive-zerof]: https://github.com/stdlib-js/math-base-assert-is-positive-zerof/tree/esm
 
-[@stdlib/math/base/assert/is-prime]: https://github.com/stdlib-js/math-base-assert-is-prime
+[@stdlib/math/base/assert/is-prime]: https://github.com/stdlib-js/math-base-assert-is-prime/tree/esm
 
-[@stdlib/math/base/assert/is-probability]: https://github.com/stdlib-js/math-base-assert-is-probability
+[@stdlib/math/base/assert/is-probability]: https://github.com/stdlib-js/math-base-assert-is-probability/tree/esm
 
-[@stdlib/math/base/assert/is-safe-integer]: https://github.com/stdlib-js/math-base-assert-is-safe-integer
+[@stdlib/math/base/assert/is-safe-integer]: https://github.com/stdlib-js/math-base-assert-is-safe-integer/tree/esm
 
-[@stdlib/math/base/assert/uint32-is-pow2]: https://github.com/stdlib-js/math-base-assert-uint32-is-pow2
+[@stdlib/math/base/assert/uint32-is-pow2]: https://github.com/stdlib-js/math-base-assert-uint32-is-pow2/tree/esm
 
 <!-- </toc-links> -->
 
