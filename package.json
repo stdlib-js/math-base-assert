@@ -66,6 +66,7 @@
   "devDependencies": {
     "@stdlib/assert-is-boolean": "^0.0.x",
     "@stdlib/bench": "^0.0.x",
+    "@stdlib/boolean-ctor": "^0.0.x",
     "@stdlib/constants-float32-max": "^0.0.x",
     "@stdlib/constants-float32-ninf": "^0.0.x",
     "@stdlib/constants-float32-pinf": "^0.0.x",
