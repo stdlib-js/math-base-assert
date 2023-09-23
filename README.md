@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert@deno/mod.js';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert@v0.1.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { isComposite, isCoprime, isEven, isEvenInt32, isFinite, isFinitef, isInfinite, isInfinitef, isInteger, isNegativeFinite, isNegativeInteger, isNegativeZero, isNegativeZerof, isNonNegativeFinite, isNonNegativeInteger, isNonPositiveFinite, isNonPositiveInteger, isOdd, isOddInt32, isPositiveFinite, isPositiveInteger, isPositiveZero, isPositiveZerof, isPow2Uint32, isPrime, isProbability, isSafeInteger, isnan, isnanf } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert@deno/mod.js';
+import { isComposite, isCoprime, isEven, isEvenInt32, isFinite, isFinitef, isInfinite, isInfinitef, isInteger, isNegativeFinite, isNegativeInteger, isNegativeZero, isNegativeZerof, isNonNegativeFinite, isNonNegativeInteger, isNonPositiveFinite, isNonPositiveInteger, isOdd, isOddInt32, isPositiveFinite, isPositiveInteger, isPositiveZero, isPositiveZerof, isPow2Uint32, isPrime, isProbability, isSafeInteger, isnan, isnanf } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert@v0.1.0-deno/mod.js';
 ```
 
 #### ns
@@ -112,7 +112,7 @@ var o = ns;
 
 ```javascript
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert@deno/mod.js';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert@v0.1.0-deno/mod.js';
 
 console.log( objectKeys( ns ) );
 ```
