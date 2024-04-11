@@ -65,7 +65,8 @@
     "@stdlib/math-base-assert-is-probability": "^0.2.2",
     "@stdlib/math-base-assert-is-safe-integer": "^0.2.1",
     "@stdlib/math-base-assert-uint32-is-pow2": "^0.2.1",
-    "@stdlib/utils-define-read-only-property": "^0.2.1"
+    "@stdlib/utils-define-read-only-property": "^0.2.1",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.1"
   },
   "devDependencies": {
     "@stdlib/assert-is-boolean": "^0.2.1",
