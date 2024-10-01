@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-01)
+## Unreleased (2024-10-01)
 
 <section class="packages">
 
@@ -21,6 +21,28 @@
 ##### Features
 
 -   [`140b517`](https://github.com/stdlib-js/stdlib/commit/140b5172075f08678b84b5f92b7feeacfc777119) - add `math/base/assert/is-integerf`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-base-assert-is-nonnegative-integerf-unreleased">
+
+#### [@stdlib/math/base/assert/is-nonnegative-integerf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-nonnegative-integerf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`d125530`](https://github.com/stdlib-js/stdlib/commit/d125530c01e76a5f6f0b093f422e403dbc3a03e2) - add `math/base/assert/is-nonnegative-integerf` [(#2851)](https://github.com/stdlib-js/stdlib/pull/2851)
 
 </section>
 
@@ -55,6 +77,10 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`f387603`](https://github.com/stdlib-js/stdlib/commit/f387603e739f88a38af3263ce6ff675ad903ee8c) - **docs:** consistently use declarative instead of imperative sentences outside of intros _(by Philipp Burckhardt)_
+-   [`a8b0d58`](https://github.com/stdlib-js/stdlib/commit/a8b0d5839361710233736f54e4b762f9381e8a3c) - **docs:** include `stdbool`, remove backticks in `math/base/assert/is-nonnegative-integerf` [(#2879)](https://github.com/stdlib-js/stdlib/pull/2879) _(by Gunj Joshi)_
+-   [`73c23e2`](https://github.com/stdlib-js/stdlib/commit/73c23e29e5030bd65421bce1eb3fde2fa964c4a4) - **docs:** include stdbool, remove backticks [(#2881)](https://github.com/stdlib-js/stdlib/pull/2881 ) _(by Gunj Joshi)_
+-   [`d125530`](https://github.com/stdlib-js/stdlib/commit/d125530c01e76a5f6f0b093f422e403dbc3a03e2) - **feat:** add `math/base/assert/is-nonnegative-integerf` [(#2851)](https://github.com/stdlib-js/stdlib/pull/2851) _(by Gunj Joshi)_
 -   [`140b517`](https://github.com/stdlib-js/stdlib/commit/140b5172075f08678b84b5f92b7feeacfc777119) - **feat:** add `math/base/assert/is-integerf` _(by Gunj Joshi, Philipp Burckhardt)_
 -   [`90133e3`](https://github.com/stdlib-js/stdlib/commit/90133e3fcc5deb6ea888468f2b610d1786dbba00) - **bench:** update sample value [(#2763)](https://github.com/stdlib-js/stdlib/pull/2763) _(by Gunj Joshi)_
 
@@ -570,13 +596,12 @@ A total of 4 issues were closed in this release:
 
 ### Contributors
 
-A total of 10 people contributed to this release. Thank you to the following contributors:
+A total of 9 people contributed to this release. Thank you to the following contributors:
 
 -   Aman Bhansali
 -   Athan Reines
 -   Gunj Joshi
 -   Philipp Burckhardt
--   Pranav
 -   Pranav Goswami
 -   Rejoan Sardar
 -   Rutam
