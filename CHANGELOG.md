@@ -4,11 +4,33 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-11-01)
+## Unreleased (2024-12-01)
 
 <section class="packages">
 
 ### Packages
+
+<section class="package" id="math-base-assert-is-evenf-unreleased">
+
+#### [@stdlib/math/base/assert/is-evenf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-evenf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`c664da7`](https://github.com/stdlib-js/stdlib/commit/c664da7d6354c3324c68b4dd92744c51f213e5d5) - add `math/base/assert/is-evenf` [(#3077)](https://github.com/stdlib-js/stdlib/pull/3077)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
 
 <section class="package" id="math-base-assert-is-integerf-unreleased">
 
@@ -62,8 +84,9 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Gunj Joshi
 -   Philipp Burckhardt
 
@@ -77,6 +100,11 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`e0790b9`](https://github.com/stdlib-js/stdlib/commit/e0790b9a98228e98b1442a5cd7e93cf2dbe3aa7c) - **refactor:** replace built-in with `fmod` in `math/base/assert/is-prime` [(#3124)](https://github.com/stdlib-js/stdlib/pull/3124) _(by Gunj Joshi, stdlib-bot)_
+-   [`15dff30`](https://github.com/stdlib-js/stdlib/commit/15dff30135c09d5afa4b81c0ef662c68b65b6013) - **refactor:** use macros in addon and update examples in `math/base/assert/is-evenf` [(#3115)](https://github.com/stdlib-js/stdlib/pull/3115) _(by Gunj Joshi, Athan Reines)_
+-   [`c664da7`](https://github.com/stdlib-js/stdlib/commit/c664da7d6354c3324c68b4dd92744c51f213e5d5) - **feat:** add `math/base/assert/is-evenf` [(#3077)](https://github.com/stdlib-js/stdlib/pull/3077) _(by Gunj Joshi)_
+-   [`6715177`](https://github.com/stdlib-js/stdlib/commit/6715177ecec14685ff6f8bce8c35f65bc0b2f199) - **docs:** correct function description and indentation in `math/base/assert/is-even` [(#3078)](https://github.com/stdlib-js/stdlib/pull/3078) _(by Gunj Joshi)_
+-   [`5a2ddbe`](https://github.com/stdlib-js/stdlib/commit/5a2ddbe402c98b9ea6aa989e248a3b26da375feb) - **docs:** correct the function description and indentation in `math/base/assert/is-odd` [(#3070)](https://github.com/stdlib-js/stdlib/pull/3070) _(by Gunj Joshi)_
 -   [`f387603`](https://github.com/stdlib-js/stdlib/commit/f387603e739f88a38af3263ce6ff675ad903ee8c) - **docs:** consistently use declarative instead of imperative sentences outside of intros _(by Philipp Burckhardt)_
 -   [`a8b0d58`](https://github.com/stdlib-js/stdlib/commit/a8b0d5839361710233736f54e4b762f9381e8a3c) - **docs:** include `stdbool`, remove backticks in `math/base/assert/is-nonnegative-integerf` [(#2879)](https://github.com/stdlib-js/stdlib/pull/2879) _(by Gunj Joshi)_
 -   [`73c23e2`](https://github.com/stdlib-js/stdlib/commit/73c23e29e5030bd65421bce1eb3fde2fa964c4a4) - **docs:** include stdbool, remove backticks [(#2881)](https://github.com/stdlib-js/stdlib/pull/2881 ) _(by Gunj Joshi)_
