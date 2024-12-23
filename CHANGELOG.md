@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-01)
+## Unreleased (2024-12-23)
 
 <section class="packages">
 
@@ -76,6 +76,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="math-base-assert-is-oddf-unreleased">
+
+#### [@stdlib/math/base/assert/is-oddf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-oddf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`ecd017d`](https://github.com/stdlib-js/stdlib/commit/ecd017d9c921c2412fe61af9a129884e0c1e85b6) - add `math/base/assert/is-oddf` [(#3125)](https://github.com/stdlib-js/stdlib/pull/3125)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 </section>
 
 <!-- /.packages -->
@@ -84,10 +106,11 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Gunj Joshi
+-   Gururaj Gurram
 -   Philipp Burckhardt
 
 </section>
@@ -100,6 +123,15 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`f13ddb2`](https://github.com/stdlib-js/stdlib/commit/f13ddb2eb01e5520b6fa98634bbf9de76793036f) - **style:** use spaces for alignment in C comments _(by Philipp Burckhardt)_
+-   [`c322b66`](https://github.com/stdlib-js/stdlib/commit/c322b6647751b73a9d0fe12bf5665e8e2243d4ca) - **docs:** update related packages sections [(#4070)](https://github.com/stdlib-js/stdlib/pull/4070) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`8bf8285`](https://github.com/stdlib-js/stdlib/commit/8bf8285aba0ecbd00ae145c4c5c098cd28135814) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`32deb11`](https://github.com/stdlib-js/stdlib/commit/32deb11c6a2453748d8db9554b6bb3fdb73a077f) - **docs:** update related packages sections [(#3976)](https://github.com/stdlib-js/stdlib/pull/3976) _(by stdlib-bot)_
+-   [`ff25e13`](https://github.com/stdlib-js/stdlib/commit/ff25e1324e1507cc076078e82badce7fdf7915f6) - **docs:** remove excess whitespace _(by Philipp Burckhardt)_
+-   [`e450426`](https://github.com/stdlib-js/stdlib/commit/e450426813957ec4de5e31434edb969741db7c94) - **bench:** add missing native suffix _(by Philipp Burckhardt)_
+-   [`2825b42`](https://github.com/stdlib-js/stdlib/commit/2825b42e8cd7483d15dfed1c6b389bfcb86d7ca0) - **docs:** update related packages sections [(#3898)](https://github.com/stdlib-js/stdlib/pull/3898) _(by stdlib-bot)_
+-   [`1f3190b`](https://github.com/stdlib-js/stdlib/commit/1f3190b7d1100f318ff2677fff12cb0d072f9b09) - **docs:** add missing `f` suffixes and `stdbool` header in `math/base/assert/is-oddf` [(#3457)](https://github.com/stdlib-js/stdlib/pull/3457) _(by Gunj Joshi)_
+-   [`ecd017d`](https://github.com/stdlib-js/stdlib/commit/ecd017d9c921c2412fe61af9a129884e0c1e85b6) - **feat:** add `math/base/assert/is-oddf` [(#3125)](https://github.com/stdlib-js/stdlib/pull/3125) _(by Gururaj Gurram, Gunj Joshi, stdlib-bot)_
 -   [`e0790b9`](https://github.com/stdlib-js/stdlib/commit/e0790b9a98228e98b1442a5cd7e93cf2dbe3aa7c) - **refactor:** replace built-in with `fmod` in `math/base/assert/is-prime` [(#3124)](https://github.com/stdlib-js/stdlib/pull/3124) _(by Gunj Joshi, stdlib-bot)_
 -   [`15dff30`](https://github.com/stdlib-js/stdlib/commit/15dff30135c09d5afa4b81c0ef662c68b65b6013) - **refactor:** use macros in addon and update examples in `math/base/assert/is-evenf` [(#3115)](https://github.com/stdlib-js/stdlib/pull/3115) _(by Gunj Joshi, Athan Reines)_
 -   [`c664da7`](https://github.com/stdlib-js/stdlib/commit/c664da7d6354c3324c68b4dd92744c51f213e5d5) - **feat:** add `math/base/assert/is-evenf` [(#3077)](https://github.com/stdlib-js/stdlib/pull/3077) _(by Gunj Joshi)_
@@ -632,7 +664,7 @@ A total of 9 people contributed to this release. Thank you to the following cont
 -   Philipp Burckhardt
 -   Pranav Goswami
 -   Rejoan Sardar
--   Rutam
+-   Rutam Kathale
 -   Shashank Shekhar Singh
 -   Snehil Shah
 
@@ -656,13 +688,13 @@ A total of 9 people contributed to this release. Thank you to the following cont
 -   [`0244027`](https://github.com/stdlib-js/stdlib/commit/0244027e1e2c0ceb1cd8ae1808196c24fa77b142) - **chore:** add missing trailing newlines _(by Philipp Burckhardt)_
 -   [`f36cfab`](https://github.com/stdlib-js/stdlib/commit/f36cfab3875404fd9c58b6e2a6fedca5e04cb4d9) - **chore:** update package meta data [(#2014)](https://github.com/stdlib-js/stdlib/pull/2014) _(by stdlib-bot)_
 -   [`2c3c709`](https://github.com/stdlib-js/stdlib/commit/2c3c709353a0821a187ff63251a296f558f951a1) - **docs:** update related packages sections [(#1941)](https://github.com/stdlib-js/stdlib/pull/1941) _(by stdlib-bot)_
--   [`8dffd8f`](https://github.com/stdlib-js/stdlib/commit/8dffd8fa583fee296d10091ca9323b17dc8a76f0) - **feat:** add C implementation for `math/base/assert/is-composite` _(by Rutam, Pranav, Philipp Burckhardt)_
--   [`fb6fb04`](https://github.com/stdlib-js/stdlib/commit/fb6fb0476ec7c2b46ff120b45c299ab52f6d06fe) - **fix:** update variable type declarations in `math/base/assert/int32-is-odd` [(#1935)](https://github.com/stdlib-js/stdlib/pull/1935) _(by Rutam)_
+-   [`8dffd8f`](https://github.com/stdlib-js/stdlib/commit/8dffd8fa583fee296d10091ca9323b17dc8a76f0) - **feat:** add C implementation for `math/base/assert/is-composite` _(by Rutam Kathale, Pranav, Philipp Burckhardt)_
+-   [`fb6fb04`](https://github.com/stdlib-js/stdlib/commit/fb6fb0476ec7c2b46ff120b45c299ab52f6d06fe) - **fix:** update variable type declarations in `math/base/assert/int32-is-odd` [(#1935)](https://github.com/stdlib-js/stdlib/pull/1935) _(by Rutam Kathale)_
 -   [`d27da5d`](https://github.com/stdlib-js/stdlib/commit/d27da5ddf7d6acb8da8c4f7bdee5a05df139329e) - **chore:** update package meta data [(#1926)](https://github.com/stdlib-js/stdlib/pull/1926) _(by stdlib-bot, Athan Reines)_
 -   [`28433d6`](https://github.com/stdlib-js/stdlib/commit/28433d637a39abec34dddc51d88c59fdc7c38f3a) - **docs:** clean-up C function parameter and return annotations _(by Philipp Burckhardt)_
 -   [`39d0327`](https://github.com/stdlib-js/stdlib/commit/39d03272aca42366767c8df6afbb2ba7768c519c) - **feat:** add C implementation for `math/base/assert/is-prime` [(#1866)](https://github.com/stdlib-js/stdlib/pull/1866) _(by Aman Bhansali, Athan Reines)_
--   [`3d7c806`](https://github.com/stdlib-js/stdlib/commit/3d7c8064bc42665018dcfef92e310b1a1b604d06) - **feat:** add C implementation for `math/base/assert/uint32-is-pow2` _(by Rutam, Pranav, Philipp Burckhardt)_
--   [`f9cbee7`](https://github.com/stdlib-js/stdlib/commit/f9cbee7fb312af11b695ff8829401acf81609813) - **feat:** add C implementation for `math/base/assert/is-nonpositive-finite` _(by Rutam, Pranav)_
+-   [`3d7c806`](https://github.com/stdlib-js/stdlib/commit/3d7c8064bc42665018dcfef92e310b1a1b604d06) - **feat:** add C implementation for `math/base/assert/uint32-is-pow2` _(by Rutam Kathale, Pranav, Philipp Burckhardt)_
+-   [`f9cbee7`](https://github.com/stdlib-js/stdlib/commit/f9cbee7fb312af11b695ff8829401acf81609813) - **feat:** add C implementation for `math/base/assert/is-nonpositive-finite` _(by Rutam Kathale, Pranav)_
 -   [`f0e398f`](https://github.com/stdlib-js/stdlib/commit/f0e398f2a5eca05bfe904a3f4b34146040fd320b) - **feat:** add C implementation for `math/base/assert/is-safe-integer` _(by Aman Bhansali, Pranav)_
 -   [`d14500f`](https://github.com/stdlib-js/stdlib/commit/d14500f3d9053d0fcd34fa19cdb8d4355bf72af7) - **feat:** add C implementation for `math/base/assert/int32-is-odd` _(by Rejoan Sardar, Pranav, Philipp Burckhardt)_
 -   [`dc20da0`](https://github.com/stdlib-js/stdlib/commit/dc20da0604fe2798e20e757277072fefc876da3c) - **chore:** update package meta data [(#1856)](https://github.com/stdlib-js/stdlib/pull/1856) _(by stdlib-bot, Philipp Burckhardt)_

@@ -82,6 +82,7 @@
     "@stdlib/constants-float64-smallest-subnormal": "^0.2.2",
     "@stdlib/constants-int32-max": "^0.3.0",
     "@stdlib/datasets-primes-100k": "^0.2.2",
+    "@stdlib/math-base-assert-is-evenf": "github:stdlib-js/math-base-assert-is-evenf#main",
     "@stdlib/math-base-assert-is-integerf": "github:stdlib-js/math-base-assert-is-integerf#main",
     "@stdlib/math-base-special-floor": "^0.2.3",
     "@stdlib/math-base-special-floorf": "^0.2.2",
