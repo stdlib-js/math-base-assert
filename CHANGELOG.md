@@ -4,141 +4,45 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-13)
-
-<section class="packages">
-
-### Packages
-
-<section class="package" id="math-base-assert-is-evenf-unreleased">
-
-#### [@stdlib/math/base/assert/is-evenf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-evenf)
-
-<details>
+## Unreleased (2025-09-01)
 
 <section class="features">
 
-##### Features
+### Features
 
+-   [`3f0031f`](https://github.com/stdlib-js/stdlib/commit/3f0031f78ca73cd60369259118a17e4710257b94) - add missing exports to `math/base/assert` namespace
+-   [`ca13482`](https://github.com/stdlib-js/stdlib/commit/ca1348266c2bb7e78fe6dce4ae48629265d5ebdd) - add `math/base/assert/is-negative-integerf`
+-   [`20b4721`](https://github.com/stdlib-js/stdlib/commit/20b4721661560f4bfaa48aca80696055776ac900) - add `math/base/assert/is-probabilityf` [(#4214)](https://github.com/stdlib-js/stdlib/pull/4214)
+-   [`ecd017d`](https://github.com/stdlib-js/stdlib/commit/ecd017d9c921c2412fe61af9a129884e0c1e85b6) - add `math/base/assert/is-oddf` [(#3125)](https://github.com/stdlib-js/stdlib/pull/3125)
 -   [`c664da7`](https://github.com/stdlib-js/stdlib/commit/c664da7d6354c3324c68b4dd92744c51f213e5d5) - add `math/base/assert/is-evenf` [(#3077)](https://github.com/stdlib-js/stdlib/pull/3077)
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-assert-is-integerf-unreleased">
-
-#### [@stdlib/math/base/assert/is-integerf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-integerf)
-
-<details>
-
-<section class="features">
-
-##### Features
-
+-   [`d125530`](https://github.com/stdlib-js/stdlib/commit/d125530c01e76a5f6f0b093f422e403dbc3a03e2) - add `math/base/assert/is-nonnegative-integerf` [(#2851)](https://github.com/stdlib-js/stdlib/pull/2851)
 -   [`140b517`](https://github.com/stdlib-js/stdlib/commit/140b5172075f08678b84b5f92b7feeacfc777119) - add `math/base/assert/is-integerf`
 
 </section>
 
 <!-- /.features -->
 
-</details>
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`3eea4f7`](https://github.com/stdlib-js/stdlib/commit/3eea4f78d4cfeae6f9dbf10b0c21175a65e5e07b) - add missing includes
 
 </section>
 
-<!-- /.package -->
+<!-- /.bug-fixes -->
 
-<section class="package" id="math-base-assert-is-nonnegative-integerf-unreleased">
+<section class="issues">
 
-#### [@stdlib/math/base/assert/is-nonnegative-integerf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-nonnegative-integerf)
+### Closed Issues
 
-<details>
+A total of 2 issues were closed in this release:
 
-<section class="features">
-
-##### Features
-
--   [`d125530`](https://github.com/stdlib-js/stdlib/commit/d125530c01e76a5f6f0b093f422e403dbc3a03e2) - add `math/base/assert/is-nonnegative-integerf` [(#2851)](https://github.com/stdlib-js/stdlib/pull/2851)
+[#6714](https://github.com/stdlib-js/stdlib/issues/6714), [#6715](https://github.com/stdlib-js/stdlib/issues/6715)
 
 </section>
 
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-assert-is-oddf-unreleased">
-
-#### [@stdlib/math/base/assert/is-oddf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-oddf)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`ecd017d`](https://github.com/stdlib-js/stdlib/commit/ecd017d9c921c2412fe61af9a129884e0c1e85b6) - add `math/base/assert/is-oddf` [(#3125)](https://github.com/stdlib-js/stdlib/pull/3125)
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-assert-is-probabilityf-unreleased">
-
-#### [@stdlib/math/base/assert/is-probabilityf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-probabilityf)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`20b4721`](https://github.com/stdlib-js/stdlib/commit/20b4721661560f4bfaa48aca80696055776ac900) - add `math/base/assert/is-probabilityf` [(#4214)](https://github.com/stdlib-js/stdlib/pull/4214)
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 5 people contributed to this release. Thank you to the following contributors:
-
--   Athan Reines
--   Gunj Joshi
--   Gururaj Gurram
--   Philipp Burckhardt
--   Vivek Maurya
-
-</section>
-
-<!-- /.contributors -->
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -146,6 +50,45 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`3f0031f`](https://github.com/stdlib-js/stdlib/commit/3f0031f78ca73cd60369259118a17e4710257b94) - **feat:** add missing exports to `math/base/assert` namespace _(by Philipp Burckhardt)_
+-   [`65ddf8d`](https://github.com/stdlib-js/stdlib/commit/65ddf8d4d51ccfda52d1c5a06408e43fb386c27e) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
+-   [`77867ac`](https://github.com/stdlib-js/stdlib/commit/77867ac1767a186023f633dea30ddf860962aaed) - **docs:** remove trailing whitespace _(by Philipp Burckhardt)_
+-   [`735605d`](https://github.com/stdlib-js/stdlib/commit/735605dda2b657b5d2e6dee66de28a425d5655f8) - **test:** ensure consistent tests _(by Athan Reines)_
+-   [`3eea4f7`](https://github.com/stdlib-js/stdlib/commit/3eea4f78d4cfeae6f9dbf10b0c21175a65e5e07b) - **fix:** add missing includes _(by Athan Reines)_
+-   [`0918c66`](https://github.com/stdlib-js/stdlib/commit/0918c6689d3193257d47a9cf736083e8d8e301e0) - **chore:** fix copyright years _(by Philipp Burckhardt)_
+-   [`ca13482`](https://github.com/stdlib-js/stdlib/commit/ca1348266c2bb7e78fe6dce4ae48629265d5ebdd) - **feat:** add `math/base/assert/is-negative-integerf` _(by Philipp Burckhardt)_
+-   [`6eee151`](https://github.com/stdlib-js/stdlib/commit/6eee15199727d04e3757e66f38384e97b8a333da) - **style:** fix indentation in JSON files _(by Philipp Burckhardt)_
+-   [`0240ed9`](https://github.com/stdlib-js/stdlib/commit/0240ed95c31c83898c7605781a2b73e508b8ef71) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`2de2781`](https://github.com/stdlib-js/stdlib/commit/2de2781ce971b1e03882955a7e22c2f188202546) - **chore:** update examples _(by Philipp Burckhardt)_
+-   [`5f73301`](https://github.com/stdlib-js/stdlib/commit/5f73301a8509cc423a06b02140c4e316fd02ff49) - **docs:** minor clean-up _(by Philipp Burckhardt)_
+-   [`cd11a33`](https://github.com/stdlib-js/stdlib/commit/cd11a33fffdd6553978d2f2d2c3f1f15730fe6c2) - **chore:** address commit comments for commit `da4436d` [(#6771)](https://github.com/stdlib-js/stdlib/pull/6771) _(by devshree-bhati)_
+-   [`4dcbec5`](https://github.com/stdlib-js/stdlib/commit/4dcbec5df397866495e475cc0ad46cc598ab163e) - **chore:** address commit comments for commit `4d0f11a` [(#6770)](https://github.com/stdlib-js/stdlib/pull/6770) _(by devshree-bhati)_
+-   [`da4436d`](https://github.com/stdlib-js/stdlib/commit/da4436d4372c05e78d6936e1738be14e640ef099) - **docs:** replace manual `for` loop in examples [(#6689)](https://github.com/stdlib-js/stdlib/pull/6689) _(by Harsh)_
+-   [`2aadeb5`](https://github.com/stdlib-js/stdlib/commit/2aadeb5422491aeab1afd3424f54048911b9cb31) - **bench:** update random value generation [(#6686)](https://github.com/stdlib-js/stdlib/pull/6686) _(by Harsh)_
+-   [`f7b18f2`](https://github.com/stdlib-js/stdlib/commit/f7b18f2f07eea6ac092fee7bc7c459fe96b4dd2c) - **bench:** update random value generation [(#6687)](https://github.com/stdlib-js/stdlib/pull/6687) _(by Harsh)_
+-   [`da87aba`](https://github.com/stdlib-js/stdlib/commit/da87aba5a4cbb2ff6553a2d9d0ee6eb83bcdc8da) - **bench:** update random value generation [(#6690)](https://github.com/stdlib-js/stdlib/pull/6690) _(by Harsh)_
+-   [`65f0948`](https://github.com/stdlib-js/stdlib/commit/65f0948b65c43d56d13cb55c54ac4526c3c60304) - **bench:** update random value generation [(#6691)](https://github.com/stdlib-js/stdlib/pull/6691) _(by Harsh)_
+-   [`4d0f11a`](https://github.com/stdlib-js/stdlib/commit/4d0f11a021200333b20632885427a8e269454283) - **bench:** update random value generation [(#6692)](https://github.com/stdlib-js/stdlib/pull/6692) _(by Harsh)_
+-   [`dededfd`](https://github.com/stdlib-js/stdlib/commit/dededfdc6102931758f0a12955d0054df893d849) - **bench:** update random value generation [(#6682)](https://github.com/stdlib-js/stdlib/pull/6682) _(by Harsh)_
+-   [`2b6d616`](https://github.com/stdlib-js/stdlib/commit/2b6d61659b1436a6a3c18308e2c56a01e2be89ed) - **bench:** update random value generation [(#6683)](https://github.com/stdlib-js/stdlib/pull/6683) _(by Harsh)_
+-   [`ef16301`](https://github.com/stdlib-js/stdlib/commit/ef163012ebdb76aca762baa0a65118bcf6a866e9) - **docs:** replace manual `for` loop in examples [(#6675)](https://github.com/stdlib-js/stdlib/pull/6675) _(by Harsh)_
+-   [`c912eff`](https://github.com/stdlib-js/stdlib/commit/c912eff7b1a6f05304f2f003021b4e47ad1074ab) - **bench:** update random value generation [(#6676)](https://github.com/stdlib-js/stdlib/pull/6676) _(by Harsh)_
+-   [`8356484`](https://github.com/stdlib-js/stdlib/commit/835648432cd29ea018a904c15933009987514d44) - **bench:** update random value generation [(#6679)](https://github.com/stdlib-js/stdlib/pull/6679) _(by Harsh)_
+-   [`d3089d5`](https://github.com/stdlib-js/stdlib/commit/d3089d54641409dada68d272140566daea12150a) - **bench:** update random value generation [(#6680)](https://github.com/stdlib-js/stdlib/pull/6680) _(by Harsh)_
+-   [`abd07ec`](https://github.com/stdlib-js/stdlib/commit/abd07ecd0b265fa4b9b223e258d3d115b88e9a4c) - **docs:** replace manual `for` loop in examples [(#6668)](https://github.com/stdlib-js/stdlib/pull/6668) _(by Harsh, Athan Reines)_
+-   [`3b07561`](https://github.com/stdlib-js/stdlib/commit/3b07561dde8d7ee36c60e67c7710c861964f123a) - **bench:** update random value generation [(#6659)](https://github.com/stdlib-js/stdlib/pull/6659) _(by Harsh)_
+-   [`7403869`](https://github.com/stdlib-js/stdlib/commit/7403869fadcd39b42c3e1a6f687f712ae77a286d) - **refactor:** use argv float instead of double _(by Philipp Burckhardt)_
+-   [`8d4fc66`](https://github.com/stdlib-js/stdlib/commit/8d4fc6616ef38fd4ebd06b4cc09fda4a5b111e7a) - **docs:** clean-up examples _(by Athan Reines)_
+-   [`da89fb7`](https://github.com/stdlib-js/stdlib/commit/da89fb740ff5ac2fb205e6b8cb1852b0f9947982) - **refactor:** update `math/base/assert/is-odd` to follow latest project conventions [(#4670)](https://github.com/stdlib-js/stdlib/pull/4670) _(by Vivek Maurya)_
+-   [`3129e35`](https://github.com/stdlib-js/stdlib/commit/3129e35d1daef24899fd03620f1bdd64d292cebd) - **refactor:** update `math/base/assert/is-integer` to follow latest project conventions [(#4627)](https://github.com/stdlib-js/stdlib/pull/4627) _(by Vivek Maurya)_
+-   [`452ba64`](https://github.com/stdlib-js/stdlib/commit/452ba64c898cec9c526ae2201aa149086347ec8e) - **refactor:** update `math/base/assert/is-integerf` to follow latest project conventions [(#4629)](https://github.com/stdlib-js/stdlib/pull/4629) _(by Vivek Maurya)_
+-   [`60983a6`](https://github.com/stdlib-js/stdlib/commit/60983a6b6946c48a3e38baeef28d19d76cbdb9c9) - **refactor:** update `math/base/assert/is-finitef` native addon from C++ to C [(#4618)](https://github.com/stdlib-js/stdlib/pull/4618) _(by Dhruv Arvind Singh, Athan Reines, stdlib-bot)_
+-   [`dda206d`](https://github.com/stdlib-js/stdlib/commit/dda206d2e9956129307d8c9561d47ae7111f7af1) - **refactor:** update `math/base/assert/is-nanf` native addon from C++ to C [(#4614)](https://github.com/stdlib-js/stdlib/pull/4614) _(by Dhruv Arvind Singh, Athan Reines)_
+-   [`566ff63`](https://github.com/stdlib-js/stdlib/commit/566ff6356bfaa7b754b9cc13f751604d743fddb2) - **refactor:** update `math/base/assert/is-infinitef` native addon from C++ to C [(#4615)](https://github.com/stdlib-js/stdlib/pull/4615) _(by Dhruv Arvind Singh, Athan Reines)_
+-   [`d962e4c`](https://github.com/stdlib-js/stdlib/commit/d962e4c9a155376b7afbe3f6ad52c76e38c04ed6) - **refactor:** update `math/base/assert/is-finite` native addon from C++ to C [(#4617)](https://github.com/stdlib-js/stdlib/pull/4617) _(by Dhruv Arvind Singh, stdlib-bot)_
+-   [`5fd0a59`](https://github.com/stdlib-js/stdlib/commit/5fd0a59f372e982a78028b9f249e5ba0921a231f) - **docs:** update examples _(by Athan Reines)_
+-   [`d0d1438`](https://github.com/stdlib-js/stdlib/commit/d0d143871a928a6bd11157c58abb5b17a0f405d4) - **docs:** add missing include _(by Athan Reines)_
+-   [`c794cdb`](https://github.com/stdlib-js/stdlib/commit/c794cdbb6d6c94f04e713589e5c233807bfd3012) - **docs:** update examples _(by Athan Reines)_
 -   [`cbf9861`](https://github.com/stdlib-js/stdlib/commit/cbf9861ff75550ac3635fca61ae3ba544ecb6e9c) - **refactor:** update `math/base/assert/is-probability` to follow latest project conventions [(#4700)](https://github.com/stdlib-js/stdlib/pull/4700) _(by Vivek Maurya)_
 -   [`2693663`](https://github.com/stdlib-js/stdlib/commit/2693663452c1d6c5708b7c474b4e2ea2e2570cf6) - **refactor:** update `math/base/assert/is-prime` to follow latest project conventions [(#4701)](https://github.com/stdlib-js/stdlib/pull/4701) _(by Vivek Maurya)_
 -   [`20b4721`](https://github.com/stdlib-js/stdlib/commit/20b4721661560f4bfaa48aca80696055776ac900) - **feat:** add `math/base/assert/is-probabilityf` [(#4214)](https://github.com/stdlib-js/stdlib/pull/4214) _(by Vivek Maurya, Gunj Joshi, stdlib-bot)_
@@ -181,6 +124,25 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 <!-- /.commits -->
 
+<section class="contributors">
+
+### Contributors
+
+A total of 8 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Dhruv Arvind Singh
+-   Gunj Joshi
+-   Gururaj Gurram
+-   Harsh
+-   Philipp Burckhardt
+-   Vivek Maurya
+-   devshree-bhati
+
+</section>
+
+<!-- /.contributors -->
+
 </section>
 
 <!-- /.release -->
@@ -189,106 +151,25 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 ## 0.3.0 (2024-07-28)
 
-<section class="packages">
-
-### Packages
-
-<section class="package" id="math-base-assert-int32-is-even-v0.3.0">
-
-#### [@stdlib/math/base/assert/int32-is-even](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/int32-is-even)
-
-<details>
-
 <section class="features">
 
-##### Features
+### Features
 
 -   [`a8ce905`](https://github.com/stdlib-js/stdlib/commit/a8ce905a5ab79798b2dea0a97aef3bdaa65bb0c5) - add C implementation for  `math/base/assert/int32-is-even`
-
-</section>
-
-<!-- /.features -->
-
-<section class="bug-fixes">
-
-##### Bug Fixes
-
--   [`1695343`](https://github.com/stdlib-js/stdlib/commit/1695343f0e7fcfc2786057236f0a24bcc2729a67) - update function name to match examples
-
-</section>
-
-<!-- /.bug-fixes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-assert-int32-is-odd-v0.3.0">
-
-#### [@stdlib/math/base/assert/int32-is-odd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/int32-is-odd)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`d14500f`](https://github.com/stdlib-js/stdlib/commit/d14500f3d9053d0fcd34fa19cdb8d4355bf72af7) - add C implementation for `math/base/assert/int32-is-odd`
-
-</section>
-
-<!-- /.features -->
-
-<section class="bug-fixes">
-
-##### Bug Fixes
-
--   [`fb6fb04`](https://github.com/stdlib-js/stdlib/commit/fb6fb0476ec7c2b46ff120b45c299ab52f6d06fe) - update variable type declarations in `math/base/assert/int32-is-odd` [(#1935)](https://github.com/stdlib-js/stdlib/pull/1935)
-
-</section>
-
-<!-- /.bug-fixes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-assert-is-composite-v0.3.0">
-
-#### [@stdlib/math/base/assert/is-composite](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-composite)
-
-<details>
-
-<section class="features">
-
-##### Features
-
 -   [`8dffd8f`](https://github.com/stdlib-js/stdlib/commit/8dffd8fa583fee296d10091ca9323b17dc8a76f0) - add C implementation for `math/base/assert/is-composite`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-assert-is-even-v0.3.0">
-
-#### [@stdlib/math/base/assert/is-even](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-even)
-
-<details>
-
-<section class="features">
-
-##### Features
-
+-   [`39d0327`](https://github.com/stdlib-js/stdlib/commit/39d03272aca42366767c8df6afbb2ba7768c519c) - add C implementation for `math/base/assert/is-prime` [(#1866)](https://github.com/stdlib-js/stdlib/pull/1866)
+-   [`3d7c806`](https://github.com/stdlib-js/stdlib/commit/3d7c8064bc42665018dcfef92e310b1a1b604d06) - add C implementation for `math/base/assert/uint32-is-pow2`
+-   [`f9cbee7`](https://github.com/stdlib-js/stdlib/commit/f9cbee7fb312af11b695ff8829401acf81609813) - add C implementation for `math/base/assert/is-nonpositive-finite`
+-   [`f0e398f`](https://github.com/stdlib-js/stdlib/commit/f0e398f2a5eca05bfe904a3f4b34146040fd320b) - add C implementation for `math/base/assert/is-safe-integer`
+-   [`d14500f`](https://github.com/stdlib-js/stdlib/commit/d14500f3d9053d0fcd34fa19cdb8d4355bf72af7) - add C implementation for `math/base/assert/int32-is-odd`
+-   [`229be91`](https://github.com/stdlib-js/stdlib/commit/229be9196d3571c40e5a6cc07ac0d4d680a8a00d) - add `math/base/assert/is-nonnegative-finite` [(#1829)](https://github.com/stdlib-js/stdlib/pull/1829)
+-   [`c66d855`](https://github.com/stdlib-js/stdlib/commit/c66d8554e6709f98128943835e3a354d155eb3b2) - add C implementation for `math/base/assert/is-negative-integer`
+-   [`3c795b3`](https://github.com/stdlib-js/stdlib/commit/3c795b3f102eabd8df616dee6018c0c18f28b00b) - add C implementation for `math/base/assert/is-nonpositive-integer`
+-   [`74866cb`](https://github.com/stdlib-js/stdlib/commit/74866cb22b9ad8a348c5b23feef53835715f6f21) - add C implementation for `math/base/assert/is-positive-integer` [(#1780)](https://github.com/stdlib-js/stdlib/pull/1780)
+-   [`054472b`](https://github.com/stdlib-js/stdlib/commit/054472bfe29980c542a947a8cf908c84277d4ca3) - add C implementation for `math/base/assert/is-nonnegative-integer` [(#1746)](https://github.com/stdlib-js/stdlib/pull/1746)
+-   [`47c248f`](https://github.com/stdlib-js/stdlib/commit/47c248fa8ace3d86ea6abb6de2941a0408e31e83) - add C implementation for `math/base/assert/is-positive-finite`
+-   [`3490734`](https://github.com/stdlib-js/stdlib/commit/34907343cf51f674a0ef155a4a3b135985e40c68) - add C implementation for `math/base/assert/is-negative-finite`
+-   [`f0684da`](https://github.com/stdlib-js/stdlib/commit/f0684da6f1eefb28048053c4305a59630dad9194) - add C implementation for `math/base/assert/is-odd` [(#1670)](https://github.com/stdlib-js/stdlib/pull/1670)
 -   [`d48f616`](https://github.com/stdlib-js/stdlib/commit/d48f616e55919d1912c2eb95eb29a35e43ec2c18) - Add C implementation for `math/base/assert/is-even`
 
 </section>
@@ -297,379 +178,15 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 <section class="bug-fixes">
 
-##### Bug Fixes
+### Bug Fixes
 
+-   [`1695343`](https://github.com/stdlib-js/stdlib/commit/1695343f0e7fcfc2786057236f0a24bcc2729a67) - update function name to match examples
+-   [`fb6fb04`](https://github.com/stdlib-js/stdlib/commit/fb6fb0476ec7c2b46ff120b45c299ab52f6d06fe) - update variable type declarations in `math/base/assert/int32-is-odd` [(#1935)](https://github.com/stdlib-js/stdlib/pull/1935)
 -   [`ca6614a`](https://github.com/stdlib-js/stdlib/commit/ca6614abe2ae5acdcfd6eccaf49a65215f60d99e) - add missing gypfile field entries
 
 </section>
 
 <!-- /.bug-fixes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-assert-is-integer-v0.3.0">
-
-#### [@stdlib/math/base/assert/is-integer](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-integer)
-
-<details>
-
-<section class="bug-fixes">
-
-##### Bug Fixes
-
--   [`ca6614a`](https://github.com/stdlib-js/stdlib/commit/ca6614abe2ae5acdcfd6eccaf49a65215f60d99e) - add missing gypfile field entries
-
-</section>
-
-<!-- /.bug-fixes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-assert-is-negative-finite-v0.3.0">
-
-#### [@stdlib/math/base/assert/is-negative-finite](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-negative-finite)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`3490734`](https://github.com/stdlib-js/stdlib/commit/34907343cf51f674a0ef155a4a3b135985e40c68) - add C implementation for `math/base/assert/is-negative-finite`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-assert-is-negative-integer-v0.3.0">
-
-#### [@stdlib/math/base/assert/is-negative-integer](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-negative-integer)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`c66d855`](https://github.com/stdlib-js/stdlib/commit/c66d8554e6709f98128943835e3a354d155eb3b2) - add C implementation for `math/base/assert/is-negative-integer`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-assert-is-nonnegative-finite-v0.3.0">
-
-#### [@stdlib/math/base/assert/is-nonnegative-finite](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-nonnegative-finite)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`229be91`](https://github.com/stdlib-js/stdlib/commit/229be9196d3571c40e5a6cc07ac0d4d680a8a00d) - add `math/base/assert/is-nonnegative-finite` [(#1829)](https://github.com/stdlib-js/stdlib/pull/1829)
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#1828](https://github.com/stdlib-js/stdlib/issues/1828)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-assert-is-nonnegative-integer-v0.3.0">
-
-#### [@stdlib/math/base/assert/is-nonnegative-integer](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-nonnegative-integer)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`054472b`](https://github.com/stdlib-js/stdlib/commit/054472bfe29980c542a947a8cf908c84277d4ca3) - add C implementation for `math/base/assert/is-nonnegative-integer` [(#1746)](https://github.com/stdlib-js/stdlib/pull/1746)
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#1723](https://github.com/stdlib-js/stdlib/issues/1723)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-assert-is-nonpositive-finite-v0.3.0">
-
-#### [@stdlib/math/base/assert/is-nonpositive-finite](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-nonpositive-finite)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`f9cbee7`](https://github.com/stdlib-js/stdlib/commit/f9cbee7fb312af11b695ff8829401acf81609813) - add C implementation for `math/base/assert/is-nonpositive-finite`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-assert-is-nonpositive-integer-v0.3.0">
-
-#### [@stdlib/math/base/assert/is-nonpositive-integer](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-nonpositive-integer)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`3c795b3`](https://github.com/stdlib-js/stdlib/commit/3c795b3f102eabd8df616dee6018c0c18f28b00b) - add C implementation for `math/base/assert/is-nonpositive-integer`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-assert-is-odd-v0.3.0">
-
-#### [@stdlib/math/base/assert/is-odd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-odd)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`f0684da`](https://github.com/stdlib-js/stdlib/commit/f0684da6f1eefb28048053c4305a59630dad9194) - add C implementation for `math/base/assert/is-odd` [(#1670)](https://github.com/stdlib-js/stdlib/pull/1670)
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#1668](https://github.com/stdlib-js/stdlib/issues/1668)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-assert-is-positive-finite-v0.3.0">
-
-#### [@stdlib/math/base/assert/is-positive-finite](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-positive-finite)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`47c248f`](https://github.com/stdlib-js/stdlib/commit/47c248fa8ace3d86ea6abb6de2941a0408e31e83) - add C implementation for `math/base/assert/is-positive-finite`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-assert-is-positive-integer-v0.3.0">
-
-#### [@stdlib/math/base/assert/is-positive-integer](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-positive-integer)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`74866cb`](https://github.com/stdlib-js/stdlib/commit/74866cb22b9ad8a348c5b23feef53835715f6f21) - add C implementation for `math/base/assert/is-positive-integer` [(#1780)](https://github.com/stdlib-js/stdlib/pull/1780)
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#1764](https://github.com/stdlib-js/stdlib/issues/1764)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-assert-is-prime-v0.3.0">
-
-#### [@stdlib/math/base/assert/is-prime](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-prime)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`39d0327`](https://github.com/stdlib-js/stdlib/commit/39d03272aca42366767c8df6afbb2ba7768c519c) - add C implementation for `math/base/assert/is-prime` [(#1866)](https://github.com/stdlib-js/stdlib/pull/1866)
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-assert-is-probability-v0.3.0">
-
-#### [@stdlib/math/base/assert/is-probability](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-probability)
-
-<details>
-
-<section class="bug-fixes">
-
-##### Bug Fixes
-
--   [`ca6614a`](https://github.com/stdlib-js/stdlib/commit/ca6614abe2ae5acdcfd6eccaf49a65215f60d99e) - add missing gypfile field entries
-
-</section>
-
-<!-- /.bug-fixes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-assert-is-safe-integer-v0.3.0">
-
-#### [@stdlib/math/base/assert/is-safe-integer](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-safe-integer)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`f0e398f`](https://github.com/stdlib-js/stdlib/commit/f0e398f2a5eca05bfe904a3f4b34146040fd320b) - add C implementation for `math/base/assert/is-safe-integer`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-assert-uint32-is-pow2-v0.3.0">
-
-#### [@stdlib/math/base/assert/uint32-is-pow2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/uint32-is-pow2)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`3d7c806`](https://github.com/stdlib-js/stdlib/commit/3d7c8064bc42665018dcfef92e310b1a1b604d06) - add C implementation for `math/base/assert/uint32-is-pow2`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
 
 <section class="issues">
 
@@ -682,26 +199,6 @@ A total of 4 issues were closed in this release:
 </section>
 
 <!-- /.issues -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 9 people contributed to this release. Thank you to the following contributors:
-
--   Aman Bhansali
--   Athan Reines
--   Gunj Joshi
--   Philipp Burckhardt
--   Pranav Goswami
--   Rejoan Sardar
--   Rutam Kathale
--   Shashank Shekhar Singh
--   Snehil Shah
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -748,6 +245,26 @@ A total of 9 people contributed to this release. Thank you to the following cont
 
 <!-- /.commits -->
 
+<section class="contributors">
+
+### Contributors
+
+A total of 9 people contributed to this release. Thank you to the following contributors:
+
+-   Aman Bhansali
+-   Athan Reines
+-   Gunj Joshi
+-   Philipp Burckhardt
+-   Pranav Goswami
+-   Rejoan Sardar
+-   Rutam Kathale
+-   Shashank Shekhar Singh
+-   Snehil Shah
+
+</section>
+
+<!-- /.contributors -->
+
 </section>
 
 <!-- /.release -->
@@ -766,27 +283,6 @@ No changes reported for this release.
 
 ## 0.2.0 (2024-02-14)
 
-<section class="packages">
-
-### Packages
-
-</section>
-
-<!-- /.packages -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 2 people contributed to this release. Thank you to the following contributors:
-
--   Athan Reines
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
-
 <section class="commits">
 
 ### Commits
@@ -803,1054 +299,6 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <!-- /.commits -->
 
-</section>
-
-<!-- /.release -->
-
-<section class="release" id="v0.1.0">
-
-## 0.1.0 (2023-09-23)
-
-<section class="packages">
-
-### Packages
-
-<section class="package" id="math-base-assert-v0.1.0">
-
-#### [@stdlib/math/base/assert](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-assert-int32-is-even-v0.1.0">
-
-#### [@stdlib/math/base/assert/int32-is-even](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/int32-is-even)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-assert-int32-is-odd-v0.1.0">
-
-#### [@stdlib/math/base/assert/int32-is-odd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/int32-is-odd)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-assert-is-composite-v0.1.0">
-
-#### [@stdlib/math/base/assert/is-composite](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-composite)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-assert-is-coprime-v0.1.0">
-
-#### [@stdlib/math/base/assert/is-coprime](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-coprime)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-assert-is-even-v0.1.0">
-
-#### [@stdlib/math/base/assert/is-even](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-even)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-assert-is-finite-v0.1.0">
-
-#### [@stdlib/math/base/assert/is-finite](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-finite)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-assert-is-finitef-v0.1.0">
-
-#### [@stdlib/math/base/assert/is-finitef](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-finitef)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-assert-is-infinite-v0.1.0">
-
-#### [@stdlib/math/base/assert/is-infinite](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-infinite)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-assert-is-infinitef-v0.1.0">
-
-#### [@stdlib/math/base/assert/is-infinitef](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-infinitef)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-assert-is-integer-v0.1.0">
-
-#### [@stdlib/math/base/assert/is-integer](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-integer)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-assert-is-nan-v0.1.0">
-
-#### [@stdlib/math/base/assert/is-nan](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-nan)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-assert-is-nanf-v0.1.0">
-
-#### [@stdlib/math/base/assert/is-nanf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-nanf)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-assert-is-negative-finite-v0.1.0">
-
-#### [@stdlib/math/base/assert/is-negative-finite](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-negative-finite)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-assert-is-negative-integer-v0.1.0">
-
-#### [@stdlib/math/base/assert/is-negative-integer](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-negative-integer)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-assert-is-negative-zero-v0.1.0">
-
-#### [@stdlib/math/base/assert/is-negative-zero](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-negative-zero)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-assert-is-negative-zerof-v0.1.0">
-
-#### [@stdlib/math/base/assert/is-negative-zerof](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-negative-zerof)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-assert-is-nonnegative-finite-v0.1.0">
-
-#### [@stdlib/math/base/assert/is-nonnegative-finite](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-nonnegative-finite)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-assert-is-nonnegative-integer-v0.1.0">
-
-#### [@stdlib/math/base/assert/is-nonnegative-integer](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-nonnegative-integer)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-assert-is-nonpositive-finite-v0.1.0">
-
-#### [@stdlib/math/base/assert/is-nonpositive-finite](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-nonpositive-finite)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-assert-is-nonpositive-integer-v0.1.0">
-
-#### [@stdlib/math/base/assert/is-nonpositive-integer](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-nonpositive-integer)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-assert-is-odd-v0.1.0">
-
-#### [@stdlib/math/base/assert/is-odd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-odd)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-assert-is-positive-finite-v0.1.0">
-
-#### [@stdlib/math/base/assert/is-positive-finite](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-positive-finite)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-assert-is-positive-integer-v0.1.0">
-
-#### [@stdlib/math/base/assert/is-positive-integer](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-positive-integer)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-assert-is-positive-zero-v0.1.0">
-
-#### [@stdlib/math/base/assert/is-positive-zero](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-positive-zero)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-assert-is-positive-zerof-v0.1.0">
-
-#### [@stdlib/math/base/assert/is-positive-zerof](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-positive-zerof)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-assert-is-prime-v0.1.0">
-
-#### [@stdlib/math/base/assert/is-prime](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-prime)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-assert-is-probability-v0.1.0">
-
-#### [@stdlib/math/base/assert/is-probability](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-probability)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-assert-is-safe-integer-v0.1.0">
-
-#### [@stdlib/math/base/assert/is-safe-integer](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/is-safe-integer)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-assert-uint32-is-pow2-v0.1.0">
-
-#### [@stdlib/math/base/assert/uint32-is-pow2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/assert/uint32-is-pow2)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
-
-<section class="breaking-changes">
-
-### BREAKING CHANGES
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
 <section class="contributors">
 
 ### Contributors
@@ -1863,6 +311,36 @@ A total of 2 people contributed to this release. Thank you to the following cont
 </section>
 
 <!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.1.0">
+
+## 0.1.0 (2023-09-23)
+
+<section class="features">
+
+### Features
+
+-   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - update minimum TypeScript version
+
+</section>
+
+<!-- /.features -->
+
+<section class="breaking-changes">
+
+### BREAKING CHANGES
+
+-   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
+
+    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
+
+</section>
+
+<!-- /.breaking-changes -->
 
 <section class="commits">
 
@@ -1880,6 +358,19 @@ A total of 2 people contributed to this release. Thank you to the following cont
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
