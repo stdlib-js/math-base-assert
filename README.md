@@ -35,38 +35,32 @@ limitations under the License.
 
 > Base math assertion utilities.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-base-assert
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-ns = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var ns = require( 'path/to/vendor/umd/math-base-assert/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.ns;
-})();
-</script>
+var ns = require( '@stdlib/math-base-assert' );
 ```
 
 #### ns
@@ -87,28 +81,34 @@ var o = ns;
 -   <span class="signature">[`isComposite( x )`][@stdlib/math/base/assert/is-composite]</span><span class="delimiter">: </span><span class="description">test if a number is a composite.</span>
 -   <span class="signature">[`isCoprime( a, b )`][@stdlib/math/base/assert/is-coprime]</span><span class="delimiter">: </span><span class="description">test if two numbers are coprime.</span>
 -   <span class="signature">[`isEven( x )`][@stdlib/math/base/assert/is-even]</span><span class="delimiter">: </span><span class="description">test if a finite numeric value is an even number.</span>
+-   <span class="signature">[`isEvenf( x )`][@stdlib/math/base/assert/is-evenf]</span><span class="delimiter">: </span><span class="description">test if a finite single-precision floating-point number is an even number.</span>
 -   <span class="signature">[`isFinite( x )`][@stdlib/math/base/assert/is-finite]</span><span class="delimiter">: </span><span class="description">test if a double-precision floating-point numeric value is finite.</span>
 -   <span class="signature">[`isFinitef( x )`][@stdlib/math/base/assert/is-finitef]</span><span class="delimiter">: </span><span class="description">test if a single-precision floating-point numeric value is finite.</span>
 -   <span class="signature">[`isInfinite( x )`][@stdlib/math/base/assert/is-infinite]</span><span class="delimiter">: </span><span class="description">test if a double-precision floating-point numeric value is infinite.</span>
 -   <span class="signature">[`isInfinitef( x )`][@stdlib/math/base/assert/is-infinitef]</span><span class="delimiter">: </span><span class="description">test if a single-precision floating-point numeric value is infinite.</span>
 -   <span class="signature">[`isInteger( x )`][@stdlib/math/base/assert/is-integer]</span><span class="delimiter">: </span><span class="description">test if a finite double-precision floating-point number is an integer.</span>
+-   <span class="signature">[`isIntegerf( x )`][@stdlib/math/base/assert/is-integerf]</span><span class="delimiter">: </span><span class="description">test if a finite single-precision floating-point number is an integer.</span>
 -   <span class="signature">[`isnan( x )`][@stdlib/math/base/assert/is-nan]</span><span class="delimiter">: </span><span class="description">test if a double-precision floating-point numeric value is NaN.</span>
 -   <span class="signature">[`isnanf( x )`][@stdlib/math/base/assert/is-nanf]</span><span class="delimiter">: </span><span class="description">test if a single-precision floating-point numeric value is NaN.</span>
 -   <span class="signature">[`isNegativeFinite( x )`][@stdlib/math/base/assert/is-negative-finite]</span><span class="delimiter">: </span><span class="description">test if a double-precision floating-point numeric value is a negative finite number.</span>
 -   <span class="signature">[`isNegativeInteger( x )`][@stdlib/math/base/assert/is-negative-integer]</span><span class="delimiter">: </span><span class="description">test if a finite double-precision floating-point number is a negative integer.</span>
+-   <span class="signature">[`isNegativeIntegerf( x )`][@stdlib/math/base/assert/is-negative-integerf]</span><span class="delimiter">: </span><span class="description">test if a finite single-precision floating-point number is a negative integer.</span>
 -   <span class="signature">[`isNegativeZero( x )`][@stdlib/math/base/assert/is-negative-zero]</span><span class="delimiter">: </span><span class="description">test if a double-precision floating-point numeric value is negative zero.</span>
 -   <span class="signature">[`isNegativeZerof( x )`][@stdlib/math/base/assert/is-negative-zerof]</span><span class="delimiter">: </span><span class="description">test if a single-precision floating-point numeric value is negative zero.</span>
 -   <span class="signature">[`isNonNegativeFinite( x )`][@stdlib/math/base/assert/is-nonnegative-finite]</span><span class="delimiter">: </span><span class="description">test if a numeric value is a nonnegative finite number.</span>
 -   <span class="signature">[`isNonNegativeInteger( x )`][@stdlib/math/base/assert/is-nonnegative-integer]</span><span class="delimiter">: </span><span class="description">test if a finite double-precision floating-point number is a nonnegative integer.</span>
+-   <span class="signature">[`isNonnegativeIntegerf( x )`][@stdlib/math/base/assert/is-nonnegative-integerf]</span><span class="delimiter">: </span><span class="description">test if a finite single-precision floating-point number is a nonnegative integer.</span>
 -   <span class="signature">[`isNonPositiveFinite( x )`][@stdlib/math/base/assert/is-nonpositive-finite]</span><span class="delimiter">: </span><span class="description">test if a numeric value is a nonpositive finite number.</span>
 -   <span class="signature">[`isNonPositiveInteger( x )`][@stdlib/math/base/assert/is-nonpositive-integer]</span><span class="delimiter">: </span><span class="description">test if a finite double-precision floating-point number is a nonpositive integer.</span>
 -   <span class="signature">[`isOdd( x )`][@stdlib/math/base/assert/is-odd]</span><span class="delimiter">: </span><span class="description">test if a finite double-precision floating-point number is an odd number.</span>
+-   <span class="signature">[`isOddf( x )`][@stdlib/math/base/assert/is-oddf]</span><span class="delimiter">: </span><span class="description">test if a finite single-precision floating-point number is an odd number.</span>
 -   <span class="signature">[`isPositiveFinite( x )`][@stdlib/math/base/assert/is-positive-finite]</span><span class="delimiter">: </span><span class="description">test if a double-precision floating-point numeric value is a positive finite number.</span>
 -   <span class="signature">[`isPositiveInteger( x )`][@stdlib/math/base/assert/is-positive-integer]</span><span class="delimiter">: </span><span class="description">test if a finite double-precision floating-point number is a positive integer.</span>
 -   <span class="signature">[`isPositiveZero( x )`][@stdlib/math/base/assert/is-positive-zero]</span><span class="delimiter">: </span><span class="description">test if a double-precision floating-point numeric value is positive zero.</span>
 -   <span class="signature">[`isPositiveZerof( x )`][@stdlib/math/base/assert/is-positive-zerof]</span><span class="delimiter">: </span><span class="description">test if a single-precision floating-point numeric value is positive zero.</span>
 -   <span class="signature">[`isPrime( x )`][@stdlib/math/base/assert/is-prime]</span><span class="delimiter">: </span><span class="description">test if a number is a prime.</span>
 -   <span class="signature">[`isProbability( x )`][@stdlib/math/base/assert/is-probability]</span><span class="delimiter">: </span><span class="description">test if a double-precision floating-point number is a probability.</span>
+-   <span class="signature">[`isProbabilityf( x )`][@stdlib/math/base/assert/is-probabilityf]</span><span class="delimiter">: </span><span class="description">test if a single-precision floating-point number is a probability.</span>
 -   <span class="signature">[`isSafeInteger( x )`][@stdlib/math/base/assert/is-safe-integer]</span><span class="delimiter">: </span><span class="description">test if a finite double-precision floating-point number is a safe integer.</span>
 -   <span class="signature">[`isPow2Uint32( x )`][@stdlib/math/base/assert/uint32-is-pow2]</span><span class="delimiter">: </span><span class="description">test whether an unsigned integer is a power of 2.</span>
 
@@ -128,21 +128,11 @@ var o = ns;
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var objectKeys = require( '@stdlib/utils-keys' );
+var ns = require( '@stdlib/math-base-assert' );
 
 console.log( objectKeys( ns ) );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -231,63 +221,75 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/math/base/assert/int32-is-even]: https://github.com/stdlib-js/math-base-assert-int32-is-even/tree/umd
+[@stdlib/math/base/assert/int32-is-even]: https://github.com/stdlib-js/math-base-assert-int32-is-even
 
-[@stdlib/math/base/assert/int32-is-odd]: https://github.com/stdlib-js/math-base-assert-int32-is-odd/tree/umd
+[@stdlib/math/base/assert/int32-is-odd]: https://github.com/stdlib-js/math-base-assert-int32-is-odd
 
-[@stdlib/math/base/assert/is-composite]: https://github.com/stdlib-js/math-base-assert-is-composite/tree/umd
+[@stdlib/math/base/assert/is-composite]: https://github.com/stdlib-js/math-base-assert-is-composite
 
-[@stdlib/math/base/assert/is-coprime]: https://github.com/stdlib-js/math-base-assert-is-coprime/tree/umd
+[@stdlib/math/base/assert/is-coprime]: https://github.com/stdlib-js/math-base-assert-is-coprime
 
-[@stdlib/math/base/assert/is-even]: https://github.com/stdlib-js/math-base-assert-is-even/tree/umd
+[@stdlib/math/base/assert/is-even]: https://github.com/stdlib-js/math-base-assert-is-even
 
-[@stdlib/math/base/assert/is-finite]: https://github.com/stdlib-js/math-base-assert-is-finite/tree/umd
+[@stdlib/math/base/assert/is-evenf]: https://github.com/stdlib-js/math-base-assert-is-evenf
 
-[@stdlib/math/base/assert/is-finitef]: https://github.com/stdlib-js/math-base-assert-is-finitef/tree/umd
+[@stdlib/math/base/assert/is-finite]: https://github.com/stdlib-js/math-base-assert-is-finite
 
-[@stdlib/math/base/assert/is-infinite]: https://github.com/stdlib-js/math-base-assert-is-infinite/tree/umd
+[@stdlib/math/base/assert/is-finitef]: https://github.com/stdlib-js/math-base-assert-is-finitef
 
-[@stdlib/math/base/assert/is-infinitef]: https://github.com/stdlib-js/math-base-assert-is-infinitef/tree/umd
+[@stdlib/math/base/assert/is-infinite]: https://github.com/stdlib-js/math-base-assert-is-infinite
 
-[@stdlib/math/base/assert/is-integer]: https://github.com/stdlib-js/math-base-assert-is-integer/tree/umd
+[@stdlib/math/base/assert/is-infinitef]: https://github.com/stdlib-js/math-base-assert-is-infinitef
 
-[@stdlib/math/base/assert/is-nan]: https://github.com/stdlib-js/math-base-assert-is-nan/tree/umd
+[@stdlib/math/base/assert/is-integer]: https://github.com/stdlib-js/math-base-assert-is-integer
 
-[@stdlib/math/base/assert/is-nanf]: https://github.com/stdlib-js/math-base-assert-is-nanf/tree/umd
+[@stdlib/math/base/assert/is-integerf]: https://github.com/stdlib-js/math-base-assert-is-integerf
 
-[@stdlib/math/base/assert/is-negative-finite]: https://github.com/stdlib-js/math-base-assert-is-negative-finite/tree/umd
+[@stdlib/math/base/assert/is-nan]: https://github.com/stdlib-js/math-base-assert-is-nan
 
-[@stdlib/math/base/assert/is-negative-integer]: https://github.com/stdlib-js/math-base-assert-is-negative-integer/tree/umd
+[@stdlib/math/base/assert/is-nanf]: https://github.com/stdlib-js/math-base-assert-is-nanf
 
-[@stdlib/math/base/assert/is-negative-zero]: https://github.com/stdlib-js/math-base-assert-is-negative-zero/tree/umd
+[@stdlib/math/base/assert/is-negative-finite]: https://github.com/stdlib-js/math-base-assert-is-negative-finite
 
-[@stdlib/math/base/assert/is-negative-zerof]: https://github.com/stdlib-js/math-base-assert-is-negative-zerof/tree/umd
+[@stdlib/math/base/assert/is-negative-integer]: https://github.com/stdlib-js/math-base-assert-is-negative-integer
 
-[@stdlib/math/base/assert/is-nonnegative-finite]: https://github.com/stdlib-js/math-base-assert-is-nonnegative-finite/tree/umd
+[@stdlib/math/base/assert/is-negative-integerf]: https://github.com/stdlib-js/math-base-assert-is-negative-integerf
 
-[@stdlib/math/base/assert/is-nonnegative-integer]: https://github.com/stdlib-js/math-base-assert-is-nonnegative-integer/tree/umd
+[@stdlib/math/base/assert/is-negative-zero]: https://github.com/stdlib-js/math-base-assert-is-negative-zero
 
-[@stdlib/math/base/assert/is-nonpositive-finite]: https://github.com/stdlib-js/math-base-assert-is-nonpositive-finite/tree/umd
+[@stdlib/math/base/assert/is-negative-zerof]: https://github.com/stdlib-js/math-base-assert-is-negative-zerof
 
-[@stdlib/math/base/assert/is-nonpositive-integer]: https://github.com/stdlib-js/math-base-assert-is-nonpositive-integer/tree/umd
+[@stdlib/math/base/assert/is-nonnegative-finite]: https://github.com/stdlib-js/math-base-assert-is-nonnegative-finite
 
-[@stdlib/math/base/assert/is-odd]: https://github.com/stdlib-js/math-base-assert-is-odd/tree/umd
+[@stdlib/math/base/assert/is-nonnegative-integer]: https://github.com/stdlib-js/math-base-assert-is-nonnegative-integer
 
-[@stdlib/math/base/assert/is-positive-finite]: https://github.com/stdlib-js/math-base-assert-is-positive-finite/tree/umd
+[@stdlib/math/base/assert/is-nonnegative-integerf]: https://github.com/stdlib-js/math-base-assert-is-nonnegative-integerf
 
-[@stdlib/math/base/assert/is-positive-integer]: https://github.com/stdlib-js/math-base-assert-is-positive-integer/tree/umd
+[@stdlib/math/base/assert/is-nonpositive-finite]: https://github.com/stdlib-js/math-base-assert-is-nonpositive-finite
 
-[@stdlib/math/base/assert/is-positive-zero]: https://github.com/stdlib-js/math-base-assert-is-positive-zero/tree/umd
+[@stdlib/math/base/assert/is-nonpositive-integer]: https://github.com/stdlib-js/math-base-assert-is-nonpositive-integer
 
-[@stdlib/math/base/assert/is-positive-zerof]: https://github.com/stdlib-js/math-base-assert-is-positive-zerof/tree/umd
+[@stdlib/math/base/assert/is-odd]: https://github.com/stdlib-js/math-base-assert-is-odd
 
-[@stdlib/math/base/assert/is-prime]: https://github.com/stdlib-js/math-base-assert-is-prime/tree/umd
+[@stdlib/math/base/assert/is-oddf]: https://github.com/stdlib-js/math-base-assert-is-oddf
 
-[@stdlib/math/base/assert/is-probability]: https://github.com/stdlib-js/math-base-assert-is-probability/tree/umd
+[@stdlib/math/base/assert/is-positive-finite]: https://github.com/stdlib-js/math-base-assert-is-positive-finite
 
-[@stdlib/math/base/assert/is-safe-integer]: https://github.com/stdlib-js/math-base-assert-is-safe-integer/tree/umd
+[@stdlib/math/base/assert/is-positive-integer]: https://github.com/stdlib-js/math-base-assert-is-positive-integer
 
-[@stdlib/math/base/assert/uint32-is-pow2]: https://github.com/stdlib-js/math-base-assert-uint32-is-pow2/tree/umd
+[@stdlib/math/base/assert/is-positive-zero]: https://github.com/stdlib-js/math-base-assert-is-positive-zero
+
+[@stdlib/math/base/assert/is-positive-zerof]: https://github.com/stdlib-js/math-base-assert-is-positive-zerof
+
+[@stdlib/math/base/assert/is-prime]: https://github.com/stdlib-js/math-base-assert-is-prime
+
+[@stdlib/math/base/assert/is-probability]: https://github.com/stdlib-js/math-base-assert-is-probability
+
+[@stdlib/math/base/assert/is-probabilityf]: https://github.com/stdlib-js/math-base-assert-is-probabilityf
+
+[@stdlib/math/base/assert/is-safe-integer]: https://github.com/stdlib-js/math-base-assert-is-safe-integer
+
+[@stdlib/math/base/assert/uint32-is-pow2]: https://github.com/stdlib-js/math-base-assert-uint32-is-pow2
 
 <!-- </toc-links> -->
 
