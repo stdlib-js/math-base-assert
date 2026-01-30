@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert@esm/index.mjs';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert@v0.4.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { isComposite, isCoprime, isEven, isEvenInt32, isEvenf, isFinite, isFinitef, isInfinite, isInfinitef, isInteger, isIntegerf, isNegativeFinite, isNegativeInteger, isNegativeIntegerf, isNegativeZero, isNegativeZerof, isNonNegativeFinite, isNonNegativeInteger, isNonPositiveFinite, isNonPositiveInteger, isNonnegativeIntegerf, isOdd, isOddInt32, isOddf, isPositiveFinite, isPositiveInteger, isPositiveZero, isPositiveZerof, isPow2Uint32, isPrime, isProbability, isProbabilityf, isSafeInteger, isnan, isnanf } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert@esm/index.mjs';
+import { isComposite, isCoprime, isEven, isEvenInt32, isEvenf, isFinite, isFinitef, isInfinite, isInfinitef, isInteger, isIntegerf, isNegativeFinite, isNegativeInteger, isNegativeIntegerf, isNegativeZero, isNegativeZerof, isNonNegativeFinite, isNonNegativeInteger, isNonPositiveFinite, isNonPositiveInteger, isNonnegativeIntegerf, isOdd, isOddInt32, isOddf, isPositiveFinite, isPositiveInteger, isPositiveZero, isPositiveZerof, isPow2Uint32, isPrime, isProbability, isProbabilityf, isSafeInteger, isnan, isnanf } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert@v0.4.0-esm/index.mjs';
 ```
 
 #### ns
@@ -123,7 +123,7 @@ var o = ns;
 <script type="module">
 
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert@esm/index.mjs';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert@v0.4.0-esm/index.mjs';
 
 console.log( objectKeys( ns ) );
 
