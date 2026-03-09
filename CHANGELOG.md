@@ -2,6 +2,42 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-03-09)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`4fb4995`](https://github.com/stdlib-js/stdlib/commit/4fb49958095bee6d0cfee8b5d63fcfdf94f87e6e) - **docs:** fix missing and malformed section tags in README files _(by Philipp Burckhardt)_
+-   [`de6983f`](https://github.com/stdlib-js/stdlib/commit/de6983f8c2359024668e5b4b5e7f65eb472118ee) - **bench:** refactor to use string interpolation in `math/base/assert` [(#10195)](https://github.com/stdlib-js/stdlib/pull/10195) _(by Lokesh Ranjan)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Lokesh Ranjan
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.4.1">
 
 ## 0.4.1 (2026-02-08)
