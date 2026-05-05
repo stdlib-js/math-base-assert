@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-29)
+## Unreleased (2026-05-05)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`addf3a2`](https://github.com/stdlib-js/stdlib/commit/addf3a2ac0da61588b9df6f28c56b04c4da9a638) - **bench:** refactor to use string interpolation in `math/base/assert` [(#11385)](https://github.com/stdlib-js/stdlib/pull/11385) _(by Karan Anand)_
 -   [`4fb4995`](https://github.com/stdlib-js/stdlib/commit/4fb49958095bee6d0cfee8b5d63fcfdf94f87e6e) - **docs:** fix missing and malformed section tags in README files _(by Philipp Burckhardt)_
 -   [`de6983f`](https://github.com/stdlib-js/stdlib/commit/de6983f8c2359024668e5b4b5e7f65eb472118ee) - **bench:** refactor to use string interpolation in `math/base/assert` [(#10195)](https://github.com/stdlib-js/stdlib/pull/10195) _(by Lokesh Ranjan)_
 
@@ -25,8 +26,9 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
+-   Karan Anand
 -   Lokesh Ranjan
 -   Philipp Burckhardt
 
