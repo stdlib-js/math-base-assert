@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-05)
+## Unreleased (2026-06-06)
 
 <section class="commits">
 
@@ -12,6 +12,9 @@
 
 <details>
 
+-   [`46209bc`](https://github.com/stdlib-js/stdlib/commit/46209bc161936be8a9652b7618a809cbf065c629) - **docs:** update `math/base/assert` TypeScript declarations [(#12585)](https://github.com/stdlib-js/stdlib/pull/12585) _(by stdlib-bot)_
+-   [`bdc08b0`](https://github.com/stdlib-js/stdlib/commit/bdc08b0c6f55af6b70149f21a8556ef7b0f57e68) - **docs:** fix TSDoc issues in two `@stdlib/math-base/assert` declarations [(#12463)](https://github.com/stdlib-js/stdlib/pull/12463) _(by Philipp Burckhardt)_
+-   [`2013317`](https://github.com/stdlib-js/stdlib/commit/2013317f82ec8e16f2ec14c8534df85863689738) - **chore:** add missing classification keywords in `math/base/assert` [(#12442)](https://github.com/stdlib-js/stdlib/pull/12442) _(by Philipp Burckhardt)_
 -   [`addf3a2`](https://github.com/stdlib-js/stdlib/commit/addf3a2ac0da61588b9df6f28c56b04c4da9a638) - **bench:** refactor to use string interpolation in `math/base/assert` [(#11385)](https://github.com/stdlib-js/stdlib/pull/11385) _(by Karan Anand)_
 -   [`4fb4995`](https://github.com/stdlib-js/stdlib/commit/4fb49958095bee6d0cfee8b5d63fcfdf94f87e6e) - **docs:** fix missing and malformed section tags in README files _(by Philipp Burckhardt)_
 -   [`de6983f`](https://github.com/stdlib-js/stdlib/commit/de6983f8c2359024668e5b4b5e7f65eb472118ee) - **bench:** refactor to use string interpolation in `math/base/assert` [(#10195)](https://github.com/stdlib-js/stdlib/pull/10195) _(by Lokesh Ranjan)_
