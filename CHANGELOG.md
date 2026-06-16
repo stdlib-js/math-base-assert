@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`e663e10`](https://github.com/stdlib-js/stdlib/commit/e663e10bace9aec32d25e3dd8eebafe6b122deb4) - **docs:** update namespace table of contents [(#12915)](https://github.com/stdlib-js/stdlib/pull/12915) _(by stdlib-bot)_
 -   [`e2252d0`](https://github.com/stdlib-js/stdlib/commit/e2252d09681ac8da6b8b99f7feef507d98b1e0c7) - **docs:** update `math/base/assert` TypeScript declarations [(#12914)](https://github.com/stdlib-js/stdlib/pull/12914) _(by stdlib-bot)_
 -   [`00cb1cb`](https://github.com/stdlib-js/stdlib/commit/00cb1cb3bc4d47706ba916d6c76c3155df1a040b) - **docs:** update descriptions [(#12854)](https://github.com/stdlib-js/stdlib/pull/12854) _(by Philipp Burckhardt)_
 -   [`d339de5`](https://github.com/stdlib-js/stdlib/commit/d339de5671267811eeb5a40eb1eff7702019888b) - **chore:** update keywords [(#12554)](https://github.com/stdlib-js/stdlib/pull/12554) _(by Philipp Burckhardt)_
