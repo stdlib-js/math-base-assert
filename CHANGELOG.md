@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-13)
+## Unreleased (2026-06-16)
 
 <section class="commits">
 
@@ -12,6 +12,8 @@
 
 <details>
 
+-   [`e2252d0`](https://github.com/stdlib-js/stdlib/commit/e2252d09681ac8da6b8b99f7feef507d98b1e0c7) - **docs:** update `math/base/assert` TypeScript declarations [(#12914)](https://github.com/stdlib-js/stdlib/pull/12914) _(by stdlib-bot)_
+-   [`00cb1cb`](https://github.com/stdlib-js/stdlib/commit/00cb1cb3bc4d47706ba916d6c76c3155df1a040b) - **docs:** update descriptions [(#12854)](https://github.com/stdlib-js/stdlib/pull/12854) _(by Philipp Burckhardt)_
 -   [`d339de5`](https://github.com/stdlib-js/stdlib/commit/d339de5671267811eeb5a40eb1eff7702019888b) - **chore:** update keywords [(#12554)](https://github.com/stdlib-js/stdlib/pull/12554) _(by Philipp Burckhardt)_
 -   [`46209bc`](https://github.com/stdlib-js/stdlib/commit/46209bc161936be8a9652b7618a809cbf065c629) - **docs:** update `math/base/assert` TypeScript declarations [(#12585)](https://github.com/stdlib-js/stdlib/pull/12585) _(by stdlib-bot)_
 -   [`bdc08b0`](https://github.com/stdlib-js/stdlib/commit/bdc08b0c6f55af6b70149f21a8556ef7b0f57e68) - **docs:** fix TSDoc issues in two `@stdlib/math-base/assert` declarations [(#12463)](https://github.com/stdlib-js/stdlib/pull/12463) _(by Philipp Burckhardt)_
