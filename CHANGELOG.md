@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-16)
+## Unreleased (2026-07-30)
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`e6cc42b`](https://github.com/stdlib-js/stdlib/commit/e6cc42bab0268753252236d0e7511c97443754cc) - correct typo in enum name and fix C examples [(#13088)](https://github.com/stdlib-js/stdlib/pull/13088)
+
+</section>
+
+<!-- /.bug-fixes -->
 
 <section class="commits">
 
@@ -12,6 +22,7 @@
 
 <details>
 
+-   [`e6cc42b`](https://github.com/stdlib-js/stdlib/commit/e6cc42bab0268753252236d0e7511c97443754cc) - **fix:** correct typo in enum name and fix C examples [(#13088)](https://github.com/stdlib-js/stdlib/pull/13088) _(by anee3)_
 -   [`e663e10`](https://github.com/stdlib-js/stdlib/commit/e663e10bace9aec32d25e3dd8eebafe6b122deb4) - **docs:** update namespace table of contents [(#12915)](https://github.com/stdlib-js/stdlib/pull/12915) _(by stdlib-bot)_
 -   [`e2252d0`](https://github.com/stdlib-js/stdlib/commit/e2252d09681ac8da6b8b99f7feef507d98b1e0c7) - **docs:** update `math/base/assert` TypeScript declarations [(#12914)](https://github.com/stdlib-js/stdlib/pull/12914) _(by stdlib-bot)_
 -   [`00cb1cb`](https://github.com/stdlib-js/stdlib/commit/00cb1cb3bc4d47706ba916d6c76c3155df1a040b) - **docs:** update descriptions [(#12854)](https://github.com/stdlib-js/stdlib/pull/12854) _(by Philipp Burckhardt)_
@@ -33,11 +44,12 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Karan Anand
 -   Lokesh Ranjan
 -   Philipp Burckhardt
+-   anee3
 
 </section>
 
