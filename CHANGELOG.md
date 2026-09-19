@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-30)
+## Unreleased (2026-09-19)
 
 <section class="bug-fixes">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`681d960`](https://github.com/stdlib-js/stdlib/commit/681d96000d9adca941789637758d4f9eee0eeaeb) - **chore:** remove stray binary [(#14334)](https://github.com/stdlib-js/stdlib/pull/14334) _(by Philipp Burckhardt)_
 -   [`e6cc42b`](https://github.com/stdlib-js/stdlib/commit/e6cc42bab0268753252236d0e7511c97443754cc) - **fix:** correct typo in enum name and fix C examples [(#13088)](https://github.com/stdlib-js/stdlib/pull/13088) _(by anee3)_
 -   [`e663e10`](https://github.com/stdlib-js/stdlib/commit/e663e10bace9aec32d25e3dd8eebafe6b122deb4) - **docs:** update namespace table of contents [(#12915)](https://github.com/stdlib-js/stdlib/pull/12915) _(by stdlib-bot)_
 -   [`e2252d0`](https://github.com/stdlib-js/stdlib/commit/e2252d09681ac8da6b8b99f7feef507d98b1e0c7) - **docs:** update `math/base/assert` TypeScript declarations [(#12914)](https://github.com/stdlib-js/stdlib/pull/12914) _(by stdlib-bot)_
